@@ -18,3 +18,4 @@ console.log(numeroFavorito);
 console.log(altura);
 console.log(longitud);
 console.log(suma);
+
