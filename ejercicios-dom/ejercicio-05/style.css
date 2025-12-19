@@ -1,0 +1,39 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.header {
+  margin-bottom: 16px;
+  padding: 16px;
+  border: 1px solid #ddd;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 16px;
+}
+
+.album-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.album-list li {
+  padding: 12px;
+  border-top: 1px solid #eee;
+}
+
+.album-list li:first-child {
+  border-top: none;
+}
